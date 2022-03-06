@@ -6,6 +6,7 @@ project(
 )
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1) # For ccls/clang
 
 # Add subprojects
 add_subdirectory(program)

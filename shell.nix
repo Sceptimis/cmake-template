@@ -2,5 +2,5 @@
 with pkgs;
 
 mkShell {
-  buildInputs = [ cmake cmake-language-server doxygen graphviz ];
+  buildInputs = [ clang ccls cmake cmake-language-server doxygen graphviz ];
 }
